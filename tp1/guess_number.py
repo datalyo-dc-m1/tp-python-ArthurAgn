@@ -10,11 +10,11 @@ while has_won is False and i < 10:
     if number_to_guess == user_propal:
         has_won = True
     elif number_to_guess > user_propal:
-        print("Le nombre que vous avez saisi est trop petit. On y croit !")
+        print("Le nombre que vous avez saisi est trop petit.")
     elif number_to_guess < user_propal:
-        print("Le nombre que vous avez saisi est trop grand. On y croit !")
+        print("Le nombre que vous avez saisi est trop grand.")
     i += 1
 if has_won is False:
     print("Vous n'avez pas trouvé le nombre ! Dommage, le nombre était", number_to_guess)
 if has_won is True:
-    print("Bravo ! Vous avez trouvé le bon nombre ! Le nombre était bien", number_to_guess)
+    print("Bravo ! Vous avez trouvé le bon nombre en ",i "essai ! Le nombre était bien", number_to_guess)
