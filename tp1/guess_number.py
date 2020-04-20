@@ -17,4 +17,4 @@ while has_won is False and i < 10:
 if has_won is False:
     print("Vous n'avez pas trouvé le nombre ! Dommage, le nombre était", number_to_guess)
 if has_won is True:
-    print("Bravo ! Vous avez trouvé le bon nombre en ",i ,"essai ! Le nombre était bien", number_to_guess)
+    print("Vous avez trouvé le bon nombre en ",i ,"essai ! Le nombre était bien", number_to_guess)
